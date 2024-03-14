@@ -356,3 +356,9 @@ mark{
 .ricky:hover{
     transform: scale(1.1);
 }
+
+/* ESCALA */
+.cora{
+    height: 70px;
+    width: 60px;
+}
