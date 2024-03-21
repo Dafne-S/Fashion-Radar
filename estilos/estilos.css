@@ -1,4 +1,20 @@
 
+/* MEDIA QUERY PARA DISP MOVILES */
+@media screen and (max-width:480px){
+.picture
+    {
+        width: auto;
+        height: auto;
+    }
+}
+/* MEDIA QUERY PARA DISP IPADS Y TABLETS */
+@media (min-width: 768px) and (max-width: 1023px){
+.total{
+    width: 768px;
+}
+}
+
+
 /* FONDO DEL HOME */
 .total{
     background-color: #fad2e0;
@@ -357,8 +373,136 @@ mark{
     transform: scale(1.1);
 }
 
+/* RECOMENDACIONES IMAGEN PRIN */
+.recom{
+    width: 1335px;
+    height: 250px;
+}
+/* URL MARCAS */
+#grilla6{
+    display: grid;
+    grid-template-rows: 50px 530px;
+}
+.border6{
+    margin-left: 100px;
+}
+.mk{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.mk:hover{
+    transform: scale(1.1);
+}
+.gucci{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.gucci:hover{
+    transform: scale(1.1);
+}
+.versa{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.versa:hover{
+    transform: scale(1.1);
+}
+.fendi{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.fendi:hover{
+    transform: scale(1.1);
+}
+.dior{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.dior:hover{
+    transform: scale(1.1);
+}
+.bottega{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.bottega:hover{
+    transform: scale(1.1);
+}
+.ysl{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.ysl:hover{
+    transform: scale(1.1);
+}
+.balen{
+    width: 250px;
+    height: 250px;
+    border: 3px solid #fee440;
+    margin: 15px;
+    box-shadow: 0 0 20px  #f15bb5;
+}
+.balen:hover{
+    transform: scale(1.1);
+}
+
 /* ESCALA */
-.cora{
-    height: 70px;
-    width: 60px;
+.mi-lista{
+    font-size: 18pt;
+    padding-left: 80px;
+    list-style-image: url("multimedia/cora-brillos.jpg") ;
+}
+
+/* ICONICOS */
+.multim{
+    text-align: center;
+}
+.icon1{
+    width: 350px;
+    height: 500px;
+    border: #fee440 3px solid;
+}
+.icon2{
+    width: 370px;
+    height: 500px;
+    border: #fee440 3px solid;
+}
+.icon3{
+    width: 400px;
+    height: 400px;
+    border: #fee440 3px solid;
+}
+.icon4{
+    width: 400px;
+    height: 500px;
+    border: #fee440 3px solid;
+}
+.icon5{
+    width: 700px;
+    height: 500px;
+    border: #fee440 3px solid;
+}
+.icon6{
+    border: #fee440 3px solid;
 }
