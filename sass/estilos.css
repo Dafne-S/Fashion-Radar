@@ -149,6 +149,10 @@ span {
 }
 
 /* BOTONES DE DESCARGA */
+.lineadescarga {
+  margin-top: 20px;
+}
+
 .android {
   background-color: #9b5de5;
   padding: 22px;
@@ -289,6 +293,8 @@ span {
 .linea1 {
   text-align: center;
   margin-bottom: 1px;
+  width: 200px;
+  margin-top: 20px;
 }
 
 .sub-titulo1 {
