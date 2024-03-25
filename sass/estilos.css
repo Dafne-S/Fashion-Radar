@@ -61,6 +61,11 @@ span {
   height: 30px;
 }
 
+.imgprincipal {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* BARRA LATERAL AMARILLA CON ARTICULOS */
 #grilla {
   display: grid;
@@ -326,6 +331,8 @@ span {
   height: 700px;
   width: 900px;
   padding-right: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .carac1 {
@@ -360,6 +367,8 @@ mark {
   border: 3px solid #fee440;
   margin: 7px;
   box-shadow: 0 0 20px #f15bb5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .zara:hover {
@@ -372,6 +381,8 @@ mark {
   border: 3px solid #fee440;
   margin: 7px;
   box-shadow: 0 0 20px #f15bb5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .kosiuko:hover {
@@ -384,6 +395,8 @@ mark {
   border: 3px solid #fee440;
   margin: 7px;
   box-shadow: 0 0 20px #f15bb5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .ginebra:hover {
@@ -396,6 +409,8 @@ mark {
   border: 3px solid #fee440;
   margin: 7px;
   box-shadow: 0 0 20px #f15bb5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .clara:hover {
@@ -408,6 +423,8 @@ mark {
   border: 3px solid #fee440;
   margin: 7px;
   box-shadow: 0 0 20px #f15bb5;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .ricky:hover {
@@ -418,6 +435,8 @@ mark {
 .recom {
   width: 1335px;
   height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* URL MARCAS */
