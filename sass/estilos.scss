@@ -12,12 +12,12 @@
 
 
 /* FONDO DEL HOME */
-.total 
-        background-color: #fad2e0;
-            width: auto;
+{.total
+    {background-color: #fad2e0;
+    width: auto;
     height: auto;
 }
-
+}
 /* BARRA SUPERIOR */
 * {
     padding: 0;
@@ -575,8 +575,12 @@ mark {
     border: #fee440 3px solid;
 }
 
-.carousel-inner {
-    width: 1000px;
-    height: 700px;
+.carousel-control-prev{
     text-align: center;
+    margin: auto;
+    display: block;
+}
+.carousel-control-next{
+    text-align: center;
+    margin: auto;
 }
