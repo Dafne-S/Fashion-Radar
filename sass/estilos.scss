@@ -3,6 +3,7 @@
     background-color: #fad2e0;
     width: auto;
     height: auto;
+    flex-wrap: wrap;
 }
 *{
     padding: 0;
@@ -19,6 +20,7 @@ header{
     padding: 20px;
     font-size: 20px;
     padding-right: 0%;
+    flex-wrap: wrap;
 }
 span{
     color: #f15bb5;
@@ -52,6 +54,7 @@ span{
     grid-template-columns: 1fr 1fr;
     padding-left: 126%;
     max-width: 600px;
+    flex-wrap: wrap;
     grid-template-areas: 
     "main aside aside"
     "main aside aside"
@@ -68,6 +71,7 @@ span{
     margin: 20px;
     width: 420px;
     height: 1350px;
+    flex-wrap: wrap;
     text-align: center;
     list-style: none;
     font-style: normal;
@@ -112,6 +116,7 @@ span{
     text-align: center;
     font-size: 15pt;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 .sub-texto{
     text-align: center;
@@ -137,6 +142,7 @@ span{
     text-decoration: none;
     border-radius: 30px;
     margin-left: 420px;
+    flex-wrap: wrap;
 
 }
 .ios{
@@ -146,6 +152,7 @@ span{
     text-decoration: none;
     border-radius: 30px;
     margin: 70px;
+    flex-wrap: wrap;
 }
 
 /* FOOTER */
@@ -189,9 +196,11 @@ span{
     margin-top: 120px;
     margin-left: 480px;
     height: 495px;
+    flex-wrap: wrap;
 }
 .vfooter{
     margin-right: 853px;
+    flex-wrap: wrap;
 }
 
 /* REDES SOCIALES */
@@ -493,4 +502,10 @@ mark{
 }
 .icon6{
     border: #fee440 3px solid;
+}
+
+/* CARRUSEL */
+.carousel-control-next{
+    text-align: center;
+    padding-top: 50px;
 }
