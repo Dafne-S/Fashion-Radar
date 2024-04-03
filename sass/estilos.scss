@@ -1,9 +1,9 @@
+
 /* FONDO DEL HOME */
-.total{
+body{
     background-color: #fad2e0;
     width: auto;
     height: auto;
-    flex-wrap: wrap;
 }
 *{
     padding: 0;
@@ -20,26 +20,28 @@ header{
     padding: 20px;
     font-size: 20px;
     padding-right: 0%;
-    flex-wrap: wrap;
 }
 span{
     color: #f15bb5;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30pt;
 }
-.barra{
+.navbar-toggler{
+    background-color: #fad2e0;
+}
+.collapse {
     float: inline-end;
 }
-.barra ul li{
+.collapse ul li{
     list-style: none;
     display: inline-block;
 }
-.barra a{
+.collapse a{
     text-decoration: none;
     color: #9b5de5;
     margin-right: 20px;
 }
-.barra a:hover{
+.collapse a:hover{
     color: #f15bb5;
 }
 .navegacion{
@@ -54,7 +56,6 @@ span{
     grid-template-columns: 1fr 1fr;
     padding-left: 126%;
     max-width: 600px;
-    flex-wrap: wrap;
     grid-template-areas: 
     "main aside aside"
     "main aside aside"
@@ -69,9 +70,8 @@ span{
     font-size: 20pt;
     padding: 20px;
     margin: 20px;
-    width: 420px;
-    height: 1350px;
-    flex-wrap: wrap;
+    width: 500px;
+    height: 1590px;
     text-align: center;
     list-style: none;
     font-style: normal;
@@ -102,7 +102,7 @@ span{
     color: white;
     text-decoration: none;
     border-radius: 30px;
-    margin-left: 330px;
+    margin-left: auto;
     margin: 550px;
 }
 
@@ -116,7 +116,6 @@ span{
     text-align: center;
     font-size: 15pt;
     margin-top: 40px;
-    flex-wrap: wrap;
 }
 .sub-texto{
     text-align: center;
@@ -142,7 +141,6 @@ span{
     text-decoration: none;
     border-radius: 30px;
     margin-left: 420px;
-    flex-wrap: wrap;
 
 }
 .ios{
@@ -152,7 +150,6 @@ span{
     text-decoration: none;
     border-radius: 30px;
     margin: 70px;
-    flex-wrap: wrap;
 }
 
 /* FOOTER */
@@ -188,19 +185,20 @@ span{
 /* VIDEO FOOTER */
 #grilla2{
     display: grid;
+    grid-auto-flow: dense;
     grid-template-rows: 120px 0px;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    
 }
 .border2{
     background-color: white;
-    width: 853px;
+    width: 860px;
     margin-top: 120px;
     margin-left: 480px;
     height: 495px;
-    flex-wrap: wrap;
 }
 .vfooter{
     margin-right: 853px;
-    flex-wrap: wrap;
 }
 
 /* REDES SOCIALES */
@@ -290,7 +288,7 @@ span{
     list-style: circle
 }
 .rebajas{
-    height: 700px;
+    height: auto;
     width: 900px;
     padding-right: 200px;
 }
@@ -309,6 +307,7 @@ mark{
 /* URL MARCAS */
 #grilla5{
     display: grid;
+    overflow: hidden;
     grid-template-rows: 250px 0px;
 }
 .border5{
@@ -373,6 +372,7 @@ mark{
 /* RECOMENDACIONES IMAGEN PRIN */
 .recom{
     width: 1335px;
+    text-align: center;
     height: 250px;
 }
 /* URL MARCAS */
@@ -502,10 +502,4 @@ mark{
 }
 .icon6{
     border: #fee440 3px solid;
-}
-
-/* CARRUSEL */
-.carousel-control-next{
-    text-align: center;
-    padding-top: 50px;
 }
