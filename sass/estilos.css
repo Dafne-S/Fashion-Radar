@@ -33,6 +33,10 @@ span {
   background-color: #fad2e0;
 }
 
+.nav-item li {
+  display: flex;
+}
+
 .collapse {
   float: inline-end;
 }
@@ -78,6 +82,7 @@ span {
   font-size: 20pt;
   padding: 20px;
   margin: 20px;
+  float: left;
   width: 500px;
   height: 1590px;
   text-align: center;
@@ -271,11 +276,12 @@ span {
   width: 30px;
   height: 30px;
   margin-bottom: 12px;
+  margin-right: 15px;
 }
 
 .linea {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 35px;
   margin-bottom: 12px;
 }
 
@@ -569,6 +575,54 @@ mark {
 
 .icon6 {
   border: #fee440 3px solid;
+}
+
+/* MENU HAMBURGUESA */
+.nav-menu {
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 0 100vmax rgba(248, 33, 133, 0.486);
+}
+
+.nav-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu-hamburguesa {
+  width: 50px;
+  height: 40px;
+  margin-bottom: 12px;
+  margin-left: 870px;
+}
+
+.menu-hamburguesa:hover {
+  display: block;
+}
+
+.menu {
+  flex-direction: column;
+  list-style: none;
+}
+
+.menu a {
+  color: black;
+  font-size: 18pt;
+  padding: 12;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+.menu a:hover {
+  color: #9b5de5;
+  text-decoration: underline #f15bb5;
 }
 
 /*# sourceMappingURL=estilos.css.map */
